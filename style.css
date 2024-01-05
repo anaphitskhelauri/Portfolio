@@ -1,0 +1,722 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 1340px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FB3F5C;
+    padding: 23px 126px;
+}
+
+.logo img{
+    max-width: 197.443px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.logo img:hover{
+    transform: translateY(-8px);
+    transition: 0.3s;
+}
+
+.nav {
+    display: flex;
+    gap: 52px;
+}
+
+.nav a {
+    color: #F8EEEF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #000;
+    transform: translateY(-8px);
+    transition: 0.3s;
+}
+
+
+/* main */
+
+.first-section {
+    display: flex;
+    padding: 100px 111px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+
+}
+
+.pic img{
+    width: 456.707px;
+    height: auto;  
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.3s;
+}
+
+.pic img:hover{
+    width: 430px;
+    transition: 0.3s;
+}
+
+.hello span{
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hello h2{
+    color: #191018;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hello h2 span{
+    color: #FB3F5C;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hello p{
+    color: #191018;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: lowercase;
+}
+
+.hello a{
+    display: flex;
+    width: 250px;
+    padding: 19px 57px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: #FB3F5C;
+    color: #F8EEEF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 80px;
+    transition: 0.3s;
+}
+
+.hello a:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+    color: #000;
+    background: #e05f72;
+}
+
+/* 2 */
+
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 110px;
+    gap: 200px;
+}
+
+.pic-two img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.3s;
+}
+
+.pic-two img:hover{
+    width: 390px;
+    transition: 0.3s;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me h2{
+    color: #191018;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.about-me p{
+    color: #191018;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: lowercase;
+}
+
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+
+/* 3 */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEC5CE;
+    align-items: center;
+    gap: 20px;
+    padding: 56px 100px;
+    margin-top: 50px;
+}
+
+.numbers {
+    display: flex;
+    gap: 350px;
+}
+
+.numbers h1{
+    color: #191018;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.texts{
+    display: flex;
+    gap: 58px;
+}
+
+.texts p{
+    color: #191018;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* 4 */
+
+.fourth-section h2{
+    color: #191018;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 170px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 74px 100px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.work h3{
+    color: var(--Black, #2D2D2D);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.work p{
+    color: var(--Black, #2D2D2D);
+    font-family: Nunito Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.work img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.work a{
+    transition: 0.3s;
+}
+
+.work a:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+/* footer */
+
+.footer {
+   background-color: rgba(251, 63, 92, 0.9);
+}
+
+.contacts {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+
+.phone {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.phone img{
+    width: 24.017px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.phone img:hover{
+    transition: 0.3s;
+    width: 33px;
+}
+
+.mail img{
+    width: 24.017px;
+    height: auto;
+    transition: 0.3s;
+}
+
+.mail img:hover{
+    width: 33px;
+    transition: 0.3s;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail p{
+    color: #F8EEEF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.phone p{
+    color: #F8EEEF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.icons a{
+    color: #F8EEEF;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+    transition: 0.3s;
+}
+
+.icons a:hover{
+    transition: 0.3s;
+    color: #000;
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FB3F5C;
+        padding: 10px 20px;
+        gap: 30px;
+    }
+
+    .logo img{
+        max-width: 200px;
+        height: auto;
+        transition: 0.3s;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav a {
+        color: #F8EEEF;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        transition: 0.3s;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        flex-wrap: wrap;
+
+    }
+
+    .pic img{
+        width: 250px;
+        height: auto;  
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px black;
+        transition: 0.3s;
+    }
+
+    .hello span{
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .hello h2{
+        color: #191018;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .hello p{
+        color: #191018;
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.44px;
+        text-transform: lowercase;
+    }
+    .hello a{
+        display: flex;
+        width: 200px;
+        padding: 10px 30px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        background: #FB3F5C;
+        color: #F8EEEF;
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 40px;
+        transition: 0.3s;
+    }
+
+    .hello h2 span{
+        color: #FB3F5C;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 20px;
+        gap: 50px;
+    }
+
+    .pic-two img{
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px black;
+        transition: 0.3s;
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .about-me h2{
+        color: #191018;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    .about-me p{
+        color: #191018;
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.44px;
+        text-transform: lowercase;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        background-color: #FEC5CE;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 20px;
+        margin-top: 50px;
+    }
+    
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .numbers h1{
+        color: #191018;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .texts{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .texts p{
+        color: #191018;
+        font-family: Nunito;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .fourth-section h2{
+        color: #191018;
+        text-align: center;
+        font-family: Nunito;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        margin-top: 80px;
+    }
+    
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+    
+    .work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .work h3{
+        color: var(--Black, #2D2D2D);
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    .work p{
+        color: var(--Black, #2D2D2D);
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    
+    .work img{
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px black;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+     }
+     
+     .phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+     }
+     
+     .phone img{
+         width: 24.017px;
+         height: auto;
+         transition: 0.3s;
+     }
+
+     .mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .mail p{
+        color: #F8EEEF;
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: lowercase;
+    }
+    
+    .phone p{
+        color: #F8EEEF;
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: lowercase;
+    }
+    
+    .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+
+    .icons a{
+        color: #F8EEEF;
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: lowercase;
+        transition: 0.3s;
+    }
+}
