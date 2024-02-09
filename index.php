@@ -88,26 +88,15 @@
         </div>
       </div>
 
+      
+
       <div class="fourth-section" id="fourth-section">
         <h2>Latest work</h2>
 
         <div class="projects">
-          <div class="work">
-            <a href="#"><img src="./assets/1.jpg" alt="" /></a>
-            <h3>Project title</h3>
-            <p>HTML/CSS</p>
-          </div>
-          <div class="work">
-            <a href="#"><img src="./assets/2.png" alt="" /></a>
-            <h3>Project title</h3>
-            <p>HTML/CSS</p>
-          </div>
-          <div class="work">
-            <a href="#"><img src="./assets/3.png" alt="" /></a>
-            <h3>Project title</h3>
-            <p>HTML/CSS</p>
-          </div>
+        <?php include 'projects.php'; ?>
         </div>
+
       </div>
     </main>
 
