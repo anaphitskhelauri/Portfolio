@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <div class="header">
+    <!-- <div class="header">
       <div class="logo">
         <a href="./index.html"><img src="./assets/logo.png" alt="" /></a>
       </div>
@@ -29,7 +29,29 @@
         <a href="#fourth-section">Latest Works</a>
         <a href="#footer">Contact</a>
       </div>
-    </div>
+    </div> -->
+
+    <div class="header">
+  <div class="logo">
+    <a href="./index.html"><img src="./assets/logo.png" alt="" /></a>
+  </div>
+
+  <div class="nav">
+    <?php
+      $menu_items = array(
+        array("url" => "./index.html", "label" => "Home"),
+        array("url" => "./about.html", "label" => "About"),
+        array("url" => "#fourth-section", "label" => "Latest Works"),
+        array("url" => "#footer", "label" => "Contact")
+      );
+
+      foreach ($menu_items as $item) {
+        echo '<a href="' . $item["url"] . '">' . $item["label"] . '</a>';
+      }
+    ?>
+  </div>
+</div>
+
 
     <main>
       <div class="first-section" id="first-section">
@@ -73,7 +95,7 @@
         </div>
       </div>
 
-      <div class="third-section">
+      <!-- <div class="third-section">
         <div class="numbers">
           <h1>81+</h1>
           <p>HAPPY CUSTOMERS</p>
@@ -86,7 +108,25 @@
           <h1>50</h1>
           <p>Awards Won</p>
         </div>
-      </div>
+      </div> -->
+
+      <div class="third-section">
+  <?php
+    $statistics = array(
+      array("number" => "81+", "description" => "HAPPY CUSTOMERS"),
+      array("number" => "97+", "description" => "Completed Projects"),
+      array("number" => "50", "description" => "Awards Won")
+    );
+
+    foreach ($statistics as $stat) {
+      echo '<div class="numbers">';
+      echo '<h1>' . $stat["number"] . '</h1>';
+      echo '<p>' . $stat["description"] . '</p>';
+      echo '</div>';
+    }
+  ?>
+</div>
+
 
       
 
@@ -94,7 +134,7 @@
         <h2>Latest work</h2>
 
         <div class="projects">
-        <?php include 'projects.php'; ?>
+          <?php include 'projects.php'; ?>
         </div>
 
       </div>

@@ -19,9 +19,11 @@ $projects = [
 
 foreach ($projects as $key => $project) {
     echo '<div class="work">';
+    echo '<div class="work-details">';
     echo '<a href="#"><img src="' . $project["image"] . '" alt="" /></a>';
     echo '<h3>' . $project["title"] . '</h3>';
     echo '<p>' . $project["description"] . '</p>';
+    echo '</div>';
     echo '</div>';
 }
 ?>
